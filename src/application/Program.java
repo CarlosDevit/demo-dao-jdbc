@@ -33,7 +33,7 @@ public class Program {
             System.out.println(obj);
         });
 
-      /* System.out.println("\n=== TEST 4: seller insert ===");
+       /*System.out.println("\n=== TEST 4: seller insert ===");
         Seller newSeller = new Seller(null, "Greg Grey", "greg@gmail.com", new Date(), 4000.0, department);
         sellerDao.insert(newSeller);
         System.out.println("Inserted! New id = " + newSeller.getId());*/
@@ -47,12 +47,12 @@ public class Program {
         sellerDao.update(seller);
         System.out.println("Update Completed! New Data: \n" + seller);*/
         
-        System.out.println("\n=== TEST 6: seller delete ===");
+        /*System.out.println("\n=== TEST 6: seller delete ===");
         System.out.print("Enter id for detele test: ");
         int id = sc.nextInt();
         sellerDao.deleteById(id);
         System.out.println("Delete Completed! ID #" + id + " Removed");
-        sc.close();
+        sc.close();*/
 
     }
 
